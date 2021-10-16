@@ -4,11 +4,18 @@ This repo will contain the standard rules we should follow while building our gr
 
 ---
 
+### Important Links
+
+- [Drive](https://drive.google.com/drive/folders/1xJETdLUyRsgOnjRMnQou9g3Lu7s-DvwZ?usp=sharing)
+- [Trello](https://trello.com/b/LQgGQhio/fcis-graduation-project-%F0%9F%94%A5)
+
+---
+
 ### Project Structure.
 
 - Mobile App
     - Built with flutter (Most likely, Will be discussed).
-    - Use 'aysa' app for inspiration : https://apps.apple.com/us/app/aysa/id1357153511
+    - Use '[aysa](https://apps.apple.com/us/app/aysa/id1357153511)' app for inspiration
 - Backend
     - Restful api service
         - Built with laravel.
