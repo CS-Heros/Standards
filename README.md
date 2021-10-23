@@ -9,6 +9,23 @@ This repo will contain the standard rules we should follow while building our gr
 - [Drive](https://drive.google.com/drive/folders/1xJETdLUyRsgOnjRMnQou9g3Lu7s-DvwZ?usp=sharing)
 - [Trello](https://trello.com/b/LQgGQhio/fcis-graduation-project-%F0%9F%94%A5)
 
+### Team Members
+- QA/QC Team
+  - [Mahmoud Abas](https://github.com/mmabas77)
+  - [Mohamed Badr](https://github.com/Mohamed-b2dr)
+- Android Team
+  - [Mahmoud Zewain](https://github.com/Zewain-tech)
+  - [Omar Adel](https://github.com/omarzer0)
+- Backend (Laravel) Team
+  - [Mahmoud Mohamed Ramadan](https://github.com/mahmoudmohamedramadan)
+  - [Ayda Mohammed](https://github.com/Ayda-mohammed)
+- Deployment Team
+  - [Abdelrahman Khaled](https://github.com/Abdelrahman-Kh-Fouad)
+  - Abdullah Mohamed
+- UI/UX Team
+  - [Mohamed Elazap](https://github.com/jrazap)
+  - [Ghada Talaat](https://github.com/Ghada-Talaat)
+
 ---
 
 ### Project Structure.
