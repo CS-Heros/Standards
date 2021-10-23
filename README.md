@@ -10,25 +10,26 @@ This repo will contain the standard rules we should follow while building our gr
 - [Trello](https://trello.com/b/LQgGQhio/fcis-graduation-project-%F0%9F%94%A5)
 
 ### Team Members
+
 - QA/QC Team
-  - [Mahmoud Abas](https://github.com/mmabas77)
-  - [Mohamed Badr](https://github.com/Mohamed-b2dr)
+    - [Mahmoud Abas](https://github.com/mmabas77)
+    - [Mohamed Badr](https://github.com/Mohamed-b2dr)
 - Android Team
-  - [Mahmoud Zewain](https://github.com/Zewain-tech)
-  - [Omar Adel](https://github.com/omarzer0)
+    - [Mahmoud Zewain](https://github.com/Zewain-tech)
+    - [Omar Adel](https://github.com/omarzer0)
 - Backend (Laravel) Team
-  - [Mahmoud Mohamed Ramadan](https://github.com/mahmoudmohamedramadan)
-  - [Ayda Mohammed](https://github.com/Ayda-mohammed)
+    - [Mahmoud Mohamed Ramadan](https://github.com/mahmoudmohamedramadan)
+    - [Ayda Mohammed](https://github.com/Ayda-mohammed)
 - Deployment Team
-  - [Abdelrahman Khaled](https://github.com/Abdelrahman-Kh-Fouad)
-  - Abdullah Mohamed
+    - [Abdelrahman Khaled](https://github.com/Abdelrahman-Kh-Fouad)
+    - Abdullah Mohamed
 - UI/UX Team
-  - [Mohamed Elazap](https://github.com/jrazap)
-  - [Ghada Talaat](https://github.com/Ghada-Talaat)
+    - [Mohamed Elazap](https://github.com/jrazap)
+    - [Ghada Talaat](https://github.com/Ghada-Talaat)
 
 ---
 
-### Project Structure.
+### Project Structure
 
 - Mobile App
     - Built with flutter (Most likely, Will be discussed).
@@ -80,6 +81,35 @@ This repo will contain the standard rules we should follow while building our gr
 
 ---
 
-### Response Examples
+### API Reference
 
-Will be written soon.
+- Reference : [JSON API Examples](https://jsonapi.org/examples/)
+- General Scheme example
+  `{ "status": "success",
+  "data": [{...},...],
+  "included": [{...},...],
+  "errors": null }`
+- Rules
+    - Use versioning e.g. `url/api/v1/endpoint`
+    - Specify language in the header e.g. `accept-language:ar` default is `en`
+    - Specify generic status in the root of the json response
+        - e.g. `"status": "success"`
+            - errors are set to null
+        - e.g. `"status": "failed"`
+            - will be used when request can't be completed but errors are not specified
+            - data,included and errors are set to null
+        - e.g. `"status": "errors"`
+            - data and included are set to null
+    - Naming
+        - Reference : [Resource Naming](https://restfulapi.net/resource-naming/)
+        - Use these words as keys (For uniform usage)
+            - name (e.g. a disease has a 'name' not a 'title')
+            - title (e.g. an article has a 'title' not a 'name')
+            - url
+            - image (As json object not a link e.g. `"image":{url: "url-here",...}`)
+
+**Any suggestions ? Just edit and make PR...**
+
+- Postman Documentation Links
+    - [Laravel App](/#)
+    - [Flask App](/#)
