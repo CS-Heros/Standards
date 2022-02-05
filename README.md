@@ -20,7 +20,7 @@ This repo will contain the standard rules we should follow while building our gr
 - Backend (Laravel) Team
     - [Mahmoud Mohamed Ramadan](https://github.com/mahmoudmohamedramadan)
     - [Ayda Mohammed](https://github.com/Ayda-mohammed)
-- Deployment Team
+- Deployment Backend Team
     - [Abdelrahman Khaled](https://github.com/Abdelrahman-Kh-Fouad)
     - Abdullah Mohamed
 - UI/UX Team
